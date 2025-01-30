@@ -1,0 +1,29 @@
+{
+    "status": true,
+    "message": "Successfully fetched all MacBooks",
+    "products": [
+      {
+        "product_id": 601,
+        "product_title": "MacBook Air M2",
+        "product_image": "https://ibb.co.com/tmLgTnB",
+        "category": "MacBooks",
+        "price": 1199,
+        "description": "Apple MacBook Air with M2 chip, 8GB RAM, and 256GB SSD.",
+        "specification": ["Apple M2 chip", "8GB RAM", "256GB SSD", "13.6-inch Retina display", "Up to 18 hours battery life"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 602,
+        "product_title": "MacBook Pro 13-inch M2",
+        "product_image": "https://ibb.co.com/cJKDBjB",
+        "category": "MacBooks",
+        "price": 1499,
+        "description": "MacBook Pro 13-inch with M2 chip, 8GB RAM, and 512GB SSD.",
+        "specification": ["Apple M2 chip", "8GB RAM", "512GB SSD", "13.3-inch Retina display", "Up to 20 hours battery life"],
+        "availability": true,
+        "rating": 4.7
+      }
+    ]
+  }
+  

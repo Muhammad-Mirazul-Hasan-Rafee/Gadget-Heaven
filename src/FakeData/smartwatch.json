@@ -1,0 +1,73 @@
+{
+    "status": true,
+    "message": "Successfully fetched all smart watches",
+    "products": [
+      {
+        "product_id": 501,
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://ibb.co.com/t2wFT8V",
+        "category": "Smart Watches",
+        "price": 399,
+        "description": "Apple Watch Series 8 with GPS, Always-On Retina display, and health tracking features.",
+        "specification": ["GPS", "Always-On Retina display", "Heart rate monitoring", "Blood oxygen monitoring", "watchOS"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 502,
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_image": "https://ibb.co.com/g3pQ2KZ",
+        "category": "Smart Watches",
+        "price": 349,
+        "description": "Samsung Galaxy Watch 6 with body composition measurement and enhanced health tracking.",
+        "specification": ["Body composition measurement", "Sleep tracking", "ECG", "Bluetooth 5.2", "IP68 water-resistant"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 503,
+        "product_title": "Garmin Fenix 7",
+        "product_image": "https://ibb.co.com/c3vC23M",
+        "category": "Smart Watches",
+        "price": 599,
+        "description": "Garmin Fenix 7 with advanced fitness tracking, solar charging, and rugged design.",
+        "specification": ["Solar charging", "Fitness tracking", "GPS", "Blood oxygen monitoring", "Rugged design"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 504,
+        "product_title": "Fitbit Sense 2",
+        "product_image": "https://ibb.co.com/DYyvMQ5",
+        "category": "Smart Watches",
+        "price": 249,
+        "description": "Fitbit Sense 2 with stress management tools, heart rate monitoring, and sleep tracking.",
+        "specification": ["Stress management", "Heart rate monitoring", "Sleep tracking", "Built-in GPS", "Fitbit OS"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 505,
+        "product_title": "Amazfit GTR 4",
+        "product_image": "https://ibb.co.com/KL2vn20",
+        "category": "Smart Watches",
+        "price": 179,
+        "description": "Amazfit GTR 4 with long battery life, health tracking, and AMOLED display.",
+        "specification": ["AMOLED display", "Health tracking", "14-day battery life", "Built-in GPS", "Bluetooth"],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 506,
+        "product_title": "Garmin Venu 2 Plus",
+        "product_image": "https://ibb.co.com/bmxmSRK",
+        "category": "Smart Watches",
+        "price": 399,
+        "description": "Garmin Venu 2 Plus with smart notifications, fitness tracking, and AMOLED display.",
+        "specification": ["AMOLED display", "Smart notifications", "Fitness tracking", "Music storage", "Bluetooth"],
+        "availability": false,
+        "rating": 4.8
+      }
+    ]
+  }
+  

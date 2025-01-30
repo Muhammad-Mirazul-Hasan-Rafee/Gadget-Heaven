@@ -1,0 +1,73 @@
+{
+    "status": true,
+    "message": "Successfully fetched all phones",
+    "products": [
+      {
+        "product_id": 301,
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://ibb.co.com/zPWCjM8",
+        "category": "Phones",
+        "price": 999,
+        "description": "Apple iPhone 14 Pro with A16 Bionic chip, 128GB storage.",
+        "specification": ["A16 Bionic chip", "128GB storage", "6.1-inch OLED display", "5G capable"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 302,
+        "product_title": "Samsung Galaxy S23",
+        "product_image": "https://ibb.co.com/WfKy8yY",
+        "category": "Phones",
+        "price": 799,
+        "description": "Samsung Galaxy S23 with Snapdragon 8 Gen 2, 128GB storage.",
+        "specification": ["Snapdragon 8 Gen 2", "128GB storage", "6.2-inch AMOLED display", "5G capable"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 303,
+        "product_title": "Google Pixel 8",
+        "product_image": "https://ibb.co.com/M8ZGXv7",
+        "category": "Phones",
+        "price": 699,
+        "description": "Google Pixel 8 with Google Tensor G3 chip, 128GB storage.",
+        "specification": ["Google Tensor G3 chip", "128GB storage", "6.0-inch OLED display", "5G capable"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 304,
+        "product_title": "OnePlus 11",
+        "product_image": "https://ibb.co.com/McPHKwd",
+        "category": "Phones",
+        "price": 749,
+        "description": "OnePlus 11 with Snapdragon 8 Gen 2, 256GB storage.",
+        "specification": ["Snapdragon 8 Gen 2", "256GB storage", "6.7-inch AMOLED display", "5G capable"],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 305,
+        "product_title": "Xiaomi 13 Pro",
+        "product_image": "https://ibb.co.com/8mpbP4y",
+        "category": "Phones",
+        "price": 849,
+        "description": "Xiaomi 13 Pro with Snapdragon 8 Gen 2, 256GB storage.",
+        "specification": ["Snapdragon 8 Gen 2", "256GB storage", "6.73-inch AMOLED display", "5G capable"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 306,
+        "product_title": "Sony Xperia 1 IV",
+        "product_image": "https://ibb.co.com/JKwKT1F",
+        "category": "Phones",
+        "price": 1399,
+        "description": "Sony Xperia 1 IV with Snapdragon 8 Gen 1, 512GB storage.",
+        "specification": ["Snapdragon 8 Gen 1", "512GB storage", "6.5-inch OLED display", "5G capable"],
+        "availability": false,
+        "rating": 4.4
+      }
+    ]
+  }
+  

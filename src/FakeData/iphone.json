@@ -1,0 +1,29 @@
+{
+    "status": true,
+    "message": "Successfully fetched all iPhones",
+    "products": [
+      {
+        "product_id": 701,
+        "product_title": "iPhone 15 Pro Max",
+        "product_image": "https://ibb.co.com/4Sxd0YS",
+        "category": "iPhones",
+        "price": 1099,
+        "description": "iPhone 15 Pro Max with A17 Pro chip, 6GB RAM, and 512GB storage.",
+        "specification": ["A17 Pro chip", "6GB RAM", "512GB storage", "6.7-inch Super Retina XDR display", "ProMotion"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 702,
+        "product_title": "iPhone 15",
+        "product_image": "https://ibb.co.com/tzWSFkP",
+        "category": "iPhones",
+        "price": 799,
+        "description": "iPhone 15 with A16 Bionic chip, 6GB RAM, and 128GB storage.",
+        "specification": ["A16 Bionic chip", "6GB RAM", "128GB storage", "6.1-inch Super Retina XDR display", "5G capable"],
+        "availability": true,
+        "rating": 4.8
+      }
+    ]
+  }
+  

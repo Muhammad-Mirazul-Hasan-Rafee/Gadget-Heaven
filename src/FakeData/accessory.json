@@ -1,0 +1,73 @@
+{
+    "status": true,
+    "message": "Successfully fetched all accessories",
+    "products": [
+      {
+        "product_id": 401,
+        "product_title": "Apple AirPods Pro 2",
+        "product_image": "https://ibb.co.com/swxG8nH",
+        "category": "Accessories",
+        "price": 249,
+        "description": "Apple AirPods Pro 2 with Active Noise Cancellation and Adaptive Transparency.",
+        "specification": ["Active Noise Cancellation", "Adaptive Transparency", "Spatial Audio", "H2 chip"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 402,
+        "product_title": "Samsung Galaxy Buds 2 Pro",
+        "product_image": "https://ibb.co.com/9pPzdwb",
+        "category": "Accessories",
+        "price": 199,
+        "description": "Samsung Galaxy Buds 2 Pro with 360 Audio and Active Noise Cancellation.",
+        "specification": ["360 Audio", "Active Noise Cancellation", "IPX7 Water Resistance", "Bluetooth 5.3"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 403,
+        "product_title": "Logitech MX Master 3S Mouse",
+        "product_image": "https://ibb.co.com/x1vW3XR",
+        "category": "Accessories",
+        "price": 99,
+        "description": "Logitech MX Master 3S Mouse with ultra-quiet clicks and 4000 DPI sensor.",
+        "specification": ["4000 DPI", "Ultra-quiet clicks", "Bluetooth & USB-C", "6 programmable buttons"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 404,
+        "product_title": "Sony WH-1000XM5 Headphones",
+        "product_image": "https://ibb.co.com/ZxFDSjT",
+        "category": "Accessories",
+        "price": 349,
+        "description": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones with a 30-hour battery life.",
+        "specification": ["Noise Cancelling", "30-hour battery life", "Touch controls", "Bluetooth 5.2"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 405,
+        "product_title": "Anker PowerCore 10000mAh",
+        "product_image": "https://ibb.co.com/NxvM2vn",
+        "category": "Accessories",
+        "price": 89.99,
+        "description": "Anker PowerCore 10000mAh Portable Charger with high-speed charging.",
+        "specification": ["10000mAh capacity", "High-speed charging", "Compact design", "PowerIQ technology"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 406,
+        "product_title": "https://ibb.co.com/SvhX3xj",
+        "product_image": "https://example.com/images/bose-qc45.jpg",
+        "category": "Accessories",
+        "price": 329,
+        "description": "Bose QuietComfort 45 headphones with superior noise cancellation and long battery life.",
+        "specification": ["Noise cancellation", "24-hour battery life", "Bluetooth", "Acoustic Noise Cancelling"],
+        "availability": false,
+        "rating": 4.8
+      }
+    ]
+  }
+  
