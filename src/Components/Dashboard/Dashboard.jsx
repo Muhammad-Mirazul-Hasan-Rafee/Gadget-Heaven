@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+import ListedCart from "../ListedCart/ListedCart";
 
 
 const Dashboard = () => {
@@ -14,9 +16,11 @@ const Dashboard = () => {
                         Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
                     </p>
                     <div className="space-x-6 mt-8">
+                   
                     <button className="w-[169px] h-[52px] px-16 py-3 rounded-[32px] btn btn-outline bg-white text-[#9538E2] font-bold text-lg btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-8">
-                        Cart
+                    Cart
                     </button>
+                    
                     <button className="w-[203px] h-[52px] px-16 py-3 rounded-[32px] btn btn-outline bg-transparent text-white font-normal text-lg btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-8">
                         Wishlist
                     </button>
@@ -36,6 +40,9 @@ const Dashboard = () => {
                 <button className="btn btn-outline bg-[#9538E2] text-white w-[137px] h-[52px] font-medium text-lg px-4 py-3 rounded-[32px]">Purchase</button>
             </div>
         </div>
+
+        {/* Cart will show here */}
+        <ListedCart></ListedCart>
 
         </div>
 

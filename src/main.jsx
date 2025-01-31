@@ -12,6 +12,7 @@ import Statistics from './Components/Statistics/Statistics.jsx';
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import GadgetDetails from './Components/GadgetDetails/GadgetDetails.jsx';
+import ListedCart from './Components/ListedCart/ListedCart.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,9 +33,15 @@ const router = createBrowserRouter([
         element:<GadgetDetails></GadgetDetails>,
         loader: ()=> fetch('/gadgets.json')
       },
+     {
+        path:'dashboard/listedCart',
+        element: <ListedCart></ListedCart>,
+        loader: ()=> fetch('/gadgets.json')
+      },
       {
         path: 'dashboard',
-        element:<Dashboard></Dashboard>
+        element:<Dashboard></Dashboard>,
+        loader: ()=> fetch('/gadgets.json')
       }
     ]
   },
