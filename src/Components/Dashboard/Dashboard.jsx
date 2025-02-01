@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import ListedCart from "../ListedCart/ListedCart";
+import ListedWish from "../ListedWish/ListedWish";
 
 
 const Dashboard = () => {
@@ -41,8 +42,14 @@ const Dashboard = () => {
             </div>
         </div>
 
+        {/* Wishlist info heading */}
+        <div><h2 className="mt-2 mx-6 font-bold text-2xl">WishList</h2></div>
+
         {/* Cart will show here */}
-        <ListedCart></ListedCart>
+        {/* <ListedCart></ListedCart> */}
+
+        {/* Wish list will be here */}
+        <ListedWish></ListedWish>
 
         </div>
 

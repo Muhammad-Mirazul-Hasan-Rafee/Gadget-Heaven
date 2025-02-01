@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getStoredGadgetList } from '../../Utility/addToDb';
-import Item from  "../Item/Item.jsx";
 import CartList from '../CartList/CartList.jsx';
 
 const ListedCart = () => {
@@ -15,7 +14,7 @@ const ListedCart = () => {
 
         // ekta jinis hole find , besi jinis hole filter 
         const cartGadgetList = allCartItems.filter(cartGadget => storedGadgetListInt.includes(parseInt(cartGadget.product_id))); 
-        console.log(cartGadgetList);
+        //console.log(cartGadgetList);
         setGadgetList(cartGadgetList);
       
      },[allCartGadgets]);
