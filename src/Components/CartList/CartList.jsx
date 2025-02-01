@@ -2,9 +2,9 @@ import { TbXboxXFilled } from "react-icons/tb";
 const CartList = ({cartList}) => {
     const {product_image , product_title , description , price} = cartList;
     return (
-        <div className='border border-blue-950 flex justify-between items-center bg-slate-100 rounded-xl'>
+        <div className='flex justify-between items-center bg-slate-100 rounded-xl'>
             <div>
-                <img className='w-[200px] h-[188px]' src={product_image} alt={product_title} />
+                <img className='w-[200px] h-[188px] rounded' src={product_image} alt={product_title} />
             </div>
             <div className='w-[200px] h-[188px] mr-[600px]'>
                   <h3 className='font-semibold text-2xl'>{product_title}</h3>

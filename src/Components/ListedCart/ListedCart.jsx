@@ -19,7 +19,7 @@ const ListedCart = () => {
       
      },[allCartGadgets]);
     return (
-        <div className='border border-red-700 mx-6 p-8 rounded-2xl mt-8 space-y-6'>
+        <div className='mx-6 p-8 rounded-2xl mt-8 space-y-6'>
             
             {
                 gadgetList.map((cartList , idx) => <CartList cartList={cartList} key={idx}></CartList>)
