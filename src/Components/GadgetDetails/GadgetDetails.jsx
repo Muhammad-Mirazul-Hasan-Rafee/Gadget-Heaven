@@ -93,7 +93,7 @@ const GadgetDetails = () => {
                     <div className='mt-4 flex gap-x-8'>
                       {/* add to cart button */}
                       <button onClick={()=>handleAddToCart(product_id)} className='W-[240px] h-[48px] flex bg-[#9538E2] rounded-3xl'>
-                        <h6 className='font-bold text-lg text-white justify-center items-center ml-3 mt-2'>Add To Card</h6>
+                        <h6 className='font-bold text-lg text-white justify-center items-center mx-3 mt-2'>Add To Cart</h6>
                         <span className='w-6 h-6 mt-4 ml-4 justify-center items-center'><PiShoppingCart/></span>
                       </button>
                         

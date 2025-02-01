@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import { getStoredGadgetList } from '../../Utility/addToDb';
 import CartList from '../CartList/CartList.jsx';
 
-const ListedCart = () => {
+const ListedCart = ({setTotalCost}) => {
     const [gadgetList , setGadgetList] = useState([]);
     const allCartGadgets = useLoaderData();
     
@@ -16,8 +16,12 @@ const ListedCart = () => {
         const cartGadgetList = allCartItems.filter(cartGadget => storedGadgetListInt.includes(parseInt(cartGadget.product_id))); 
         //console.log(cartGadgetList);
         setGadgetList(cartGadgetList);
+
+        // Total cost calculation
+        const totalAmount = cartGadgetList.reduce((sum , item) => sum + parseFloat(item.price) , 0);
+        setTotalCost(totalAmount);   // ei function ta props hisebe Dashboard theke asbe
       
-     },[allCartGadgets]);
+     },[allCartGadgets , setTotalCost]);
     return (
         <div className='mx-6 p-8 rounded-2xl mt-8 space-y-6'>
             
