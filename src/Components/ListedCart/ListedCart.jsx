@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import { getStoredGadgetList } from '../../Utility/addToDb';
 import CartList from '../CartList/CartList.jsx';
 
-const ListedCart = ({setTotalCost , sort , handleSort}) => {
+const ListedCart = ({setTotalCost , sort}) => {
     const [gadgetList , setGadgetList] = useState([]);
    
     

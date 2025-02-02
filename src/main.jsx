@@ -13,6 +13,7 @@ import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import GadgetDetails from './Components/GadgetDetails/GadgetDetails.jsx';
 import ListedCart from './Components/ListedCart/ListedCart.jsx';
+import AskAi from './Components/AskAi/AskAi.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:'statistics',
         element:<Statistics></Statistics>
+      },
+      {
+        path:'ai',
+        element:<AskAi></AskAi>
       },
       {
         path:'/gadgets/:product_id',

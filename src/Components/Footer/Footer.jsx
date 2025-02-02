@@ -5,7 +5,7 @@ const Footer = () => {
     return (
 
 
-        <section className='mt-[500px]'>
+        <section className='mt-[200px]'>
             <h2 className='text-center font-bold text-2xl'>Gadget Heaven</h2>
             <p className='font-medium text-xl text-center text-[rgba(9,8,15,0.6)] mt-3'>Leading the way in cutting-edge technology and innovation.</p>
             <hr className='mt-8' />
