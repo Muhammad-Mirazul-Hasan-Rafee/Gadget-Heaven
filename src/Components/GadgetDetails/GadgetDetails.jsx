@@ -92,9 +92,9 @@ const GadgetDetails = () => {
 
                     <div className='mt-4 flex gap-x-8'>
                       {/* add to cart button */}
-                      <button onClick={()=>handleAddToCart(product_id)} className='W-[240px] h-[48px] flex bg-[#9538E2] rounded-3xl'>
-                        <h6 className='font-bold text-lg text-white justify-center items-center mx-3 mt-2'>Add To Cart</h6>
-                        <span className='w-6 h-6 mt-4 ml-4 justify-center items-center'><PiShoppingCart/></span>
+                      <button onClick={()=>handleAddToCart(product_id)} className='btn btn-outline W-[240px] h-[48px] flex bg-[#9538E2] rounded-3xl'>
+                        <h6 className='font-bold text-lg text-white justify-center items-center mx-2 mt-2 mb-3'>Add To Cart</h6>
+                        <span className='w-6 h-6 mt-2 mr-2 ml-4 justify-center items-center'><PiShoppingCart/></span>
                       </button>
                         
                       <button onClick={()=>handleWishList(product_id)} className='rounded-full'>

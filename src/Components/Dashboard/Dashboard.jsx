@@ -7,6 +7,14 @@ import { useState } from "react";
 const Dashboard = () => {
     const [visible, setVisible] = useState('cart'); //by default cart list will be shown
     const [totalCost , setTotalCost] = useState(0);
+    const [sort , setSort] = useState('');
+
+
+    // function for sorting
+    const handleSort = (sortType) =>{
+        setSort(sortType);
+    };
+    
     return (
         <div>
             <div className="hero bg-[#9538E2] h-[344px]">
@@ -42,13 +50,13 @@ const Dashboard = () => {
                             <h2 className="mt-2 font-bold text-2xl">Cart</h2>
                             <div className="space-x-4 flex">
                                 <p className="font-bold text-2xl mr-8 mt-2">Total Cost: ${totalCost.toFixed(2)} </p>
-                                <button className="btn btn-outline bg-transparent text-[#9538E2] w-[196px] h-[52px] font-semibold text-lg px-4 py-3 rounded-[32px]">Sort by Price</button>
+                                <button onClick={()=> handleSort('Sort by Price')} className="btn btn-outline bg-transparent text-[#9538E2] w-[196px] h-[52px] font-semibold text-lg px-4 py-3 rounded-[32px]">Sort by Price</button>
                                 <button className="btn btn-outline bg-[#9538E2] text-white w-[137px] h-[52px] font-medium text-lg px-4 py-3 rounded-[32px]">Purchase</button>
                             </div>
                         </div>
 
                         {/* Cart will show here */}
-                        <ListedCart setTotalCost={setTotalCost}></ListedCart>
+                        <ListedCart setTotalCost={setTotalCost} handleSort={handleSort} sort={sort}></ListedCart>
                     </>
                 )
             }

@@ -3,8 +3,10 @@ import { useLoaderData } from 'react-router-dom';
 import { getStoredGadgetList } from '../../Utility/addToDb';
 import CartList from '../CartList/CartList.jsx';
 
-const ListedCart = ({setTotalCost}) => {
+const ListedCart = ({setTotalCost , sort , handleSort}) => {
     const [gadgetList , setGadgetList] = useState([]);
+   
+    
     const allCartGadgets = useLoaderData();
     
    useEffect(()=>{
@@ -22,6 +24,20 @@ const ListedCart = ({setTotalCost}) => {
         setTotalCost(totalAmount);   // ei function ta props hisebe Dashboard theke asbe
       
      },[allCartGadgets , setTotalCost]);
+
+
+    //  logic for sorting
+    useEffect(()=>{
+
+        if(sort === 'Sort by Price'){
+            const sortedList = [...gadgetList].sort((a , b) => b.price - a.price);
+            setGadgetList(sortedList);
+        }
+
+    },[sort]);
+
+
+
     return (
         <div className='mx-6 p-8 rounded-2xl mt-8 space-y-6'>
             
