@@ -39,8 +39,8 @@ const ListedCart = ({setTotalCost , sort}) => {
 
 
     return (
-        <div className='mx-6 p-8 rounded-2xl mt-8 space-y-6'>
-            
+        <div className='mx-6 p-8 rounded-2xl mt-8 space-y-6 sm:space-y-4'>
+           
             {
                 gadgetList.map((cartList , idx) => <CartList cartList={cartList} key={idx}></CartList>)
             }

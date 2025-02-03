@@ -23,7 +23,7 @@ const ListedWish = () => {
 
     } , [allWishGadgets]);
     return (
-        <div className='mx-6 p-8 rounded-2xl mt-8 space-y-6'>
+        <div className='mx-6 p-8 rounded-2xl mt-8 space-y-6 max-w-full sm:mx-4 md:mx-8 lg:mx-12 xl:mx-20'>
            {
             wishList.map((wishlist , idx) => <WishList key={idx} wishlist={wishlist}></WishList>)
            }

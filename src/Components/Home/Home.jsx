@@ -10,12 +10,12 @@ const Home = () => {
   const handleFilteredItem = (categoryName) => {
     console.log("Filtering by Category:", categoryName); // Debug
     console.log("Available Categories:", gadgets.products.map((product) => product.categoryName)); // Debug
-  
+
     if (!categoryName) {
       setFilteredGadgets(gadgets);
       return;
     }
-  
+
     const filteredItems = {
       products: gadgets.products.filter(
         (category) =>
@@ -23,15 +23,14 @@ const Home = () => {
           category.categoryName.toLowerCase() === categoryName.toLowerCase()
       ),
     };
-  
+
     console.log("Filtered Items:", filteredItems); // Debugging
     setFilteredGadgets(filteredItems);
   };
-  
 
   return (
     <div>
-      {/* Banner Part*/}
+      {/* Banner Part */}
       <div className="relative hero min-h-screen bg-[#9538E2]">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-neutral-content text-center">
@@ -62,20 +61,20 @@ const Home = () => {
       </div>
 
       {/* Gadget Section with Sidebar */}
-      <section className=" mt-[500px] mx-12 flex justify-between">
-
-
+      <section className="mt-[500px] mx-12 flex flex-col lg:flex-row justify-between">
         {/* Sidebar */}
-        <SideBarBtns handleFilteredItem={handleFilteredItem}></SideBarBtns>
+        <div className="lg:w-auto w-full">
+          <SideBarBtns handleFilteredItem={handleFilteredItem} />
+        </div>
 
         {/* Gadgets Section */}
-        <div className="w-[990px]  p-4 rounded-lg">
+        <div className="w-full lg:w-[990px] p-4 rounded-lg">
           <Gadgets
             gadgets={gadgets}
             filteredGadgets={filteredGadgets}
             setGadgets={setGadgets}
-            setFilteredGadgets={setFilteredGadgets}>
-          </Gadgets>
+            setFilteredGadgets={setFilteredGadgets}
+          />
         </div>
       </section>
     </div>

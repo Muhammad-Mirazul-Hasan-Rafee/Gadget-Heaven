@@ -1,13 +1,6 @@
-## Private For your Assignment
+1. Live site link: https://gadget-heaven-cd.netlify.app/
+2. React concepts used: Hooks , Props , Routing , Functional Programming
+3. Handling and managing data: Local Storage 
+4. Features: Category wise data load , AI integrated section- yet need to be developed , Graph analysis , Toast , Sorting
 
-you have to create private repo in our Google Classroom . here is the Link
-
-# [https://classroom.github.com/a/Dv9-BYl_](https://classroom.github.com/a/Dv9-BYl_)
-
-
-
-figma link: https://www.figma.com/design/qr7hizhQyfmitEimBC6blK/Assignment-8?node-id=0-1&node-type=canvas&t=7Sr6v8i3wIN015u6-0
-
-
-
-## follow requerment pdf 
+5.
