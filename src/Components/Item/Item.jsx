@@ -4,7 +4,7 @@ const Item = ({ item }) => {
     const { product_image, product_title, price, product_id } = item;
     return (
         <div key={product_id} className="mx-2 mt-4 shadow-xl">
-            <div className=" bg-slate-50">
+            <div className=" bg-slate-50z">
                 <img
                     className="w-[190px] h-[180px] justify-center items-center mx-auto object-fill"
                     src={product_image}

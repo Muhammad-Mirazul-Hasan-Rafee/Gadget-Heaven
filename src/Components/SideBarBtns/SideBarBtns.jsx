@@ -1,6 +1,6 @@
-const SideBarBtns = ({ handleFilteredItem }) => {
+const SideBarBtns = ({handleFilteredItem}) => {
     return (
-        <div className="w-[240px] h-[650px] bg-gray-100 rounded-lg p-4 flex flex-col justify-center items-center sm:w-[200px] md:w-[220px] lg:w-[240px]">
+        <div className="w-[240px] h-[650px] bg-slate-300 rounded-lg p-4 flex flex-col justify-center items-center sm:w-[200px] md:w-[220px] lg:w-[240px]">
             <button onClick={() => handleFilteredItem("")} className="w-full h-[52px] my-2 bg-[rgba(9,8,15,0.05)] rounded-3xl">  
                 All Products
             </button>

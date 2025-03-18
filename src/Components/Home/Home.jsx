@@ -63,8 +63,8 @@ const Home = () => {
       {/* Gadget Section with Sidebar */}
       <section className="mt-[500px] mx-12 flex flex-col lg:flex-row justify-between">
         {/* Sidebar */}
-        <div className="lg:w-auto w-full">
-          <SideBarBtns handleFilteredItem={handleFilteredItem} />
+        <div className="flex justify-center mb-[2590px] items-center md:w-auto w-full">
+          <SideBarBtns handleFilteredItem={handleFilteredItem}></SideBarBtns>
         </div>
 
         {/* Gadgets Section */}
